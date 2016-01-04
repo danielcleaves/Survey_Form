@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#form  {
+	width: 325px;
+	height: 300px;
+	border: 2px solid black;
+	margin: 10px;
+	padding: 10px;
+}
+
+#form h1 {
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+
+#form h2 {
+	font-size: 18px;
+	display: inline-block;
+}
+
+#form input {
+
+    margin: 10px;
+    width: 200px;
+    height: 25px;
+    font-size: 16px;
+}
+
+#form p {
+	margin-bottom: 10px;
+}
+
+#form #submit {
+	background-color: blue;
+	width: 80px;
+}
+
+#form #comment {
+	height: 100px;
+	width: 300px;
+}
+
+select {
+    margin: 10px;
+    width: 150px;
+}
+
+option {
+	font-size: 16px;
+}
+
+#result {
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid black;
+	width: 325px;
+	height: 300px;
+
+}
+
+#result, h1 {
+	font-size: 18px;
+}
+
+#result, p {
+	font-size: 22px;
+}
+
+#back {
+	background-color: blue;
+	width: 80px;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Survey Form",
+  "description": "Sample Survey Form using Node JS",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "ejs": "1.0.0",
+    "express": "~4.10.0"
+  }
+}

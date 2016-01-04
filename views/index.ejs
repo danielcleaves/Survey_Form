@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Survey Form</title>
+	</head>
+	<body>
+		<div id = "form">
+			<form action = "/result" method = "post">
+				<h2>Your Name: </h2> <input type = "text" name = "full_name">
+				<h2>Dojo Location: </h2> 
+					<select name= "location">
+						<option value="Mountain View">Mountain View</option>
+						<option value="Seattle">Seattle</option>
+					</select>
+				<h2>Favorite language: </h2> 
+					<select name= "language">
+						<option value="Ruby">Javascript</option>
+						<option value="Ruby">Ruby</option>
+						<option value="Ruby">PHP</option>
+					</select>
+				<h2>Comments (optional): </h2>  <input id = "comment" type = "text" name = "comment">
+				<input id = "submit" type = "Submit" value = "Submit">
+			</div>
+
+		</form>
+	</body>
+</html>
